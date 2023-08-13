@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  
+  
+    font-family: "Poppins",sans-serif;
+}
+
+h2{
+    color: rgb(22, 216, 138);
+}
+
+section{
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2015/11/05/skogafoss-waterfallbest-scenery-wallpaper.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+header{
+    position: relative;
+    top:0;
+    width:100%;
+    padding:30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+} 
+header .navigation a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s; 
+    transition-property: background;
+}
+
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+
+header .navigation a:hover{
+    background: white;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.media-icons{
+    font-size: 30px;
+}
+.info{
+    padding: 30px;
+}
+.heading{
+    color: rgb(255, 134, 47);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
